@@ -13,7 +13,7 @@
 6. Install required npm modules (using npm -save param)
 7. Push your changes to your github fork
 
-For summa cum laude graduation:
+##For summa cum laude graduation:
 
 Using process.env.node_env find a way to handle different configurations at config file for:
 * Production
