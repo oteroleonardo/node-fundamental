@@ -1,0 +1,7 @@
+node_modules
+coverage
+newrelic_agent.log
+.idea/
+npm-debug.log
+.vscode/
+.DS_Store

@@ -1,0 +1,22 @@
+//-layout.jade
+doctype html
+html(lang="en")
+  head
+    block page_title
+      title= pageTitle
+    style.
+      .footer{
+          min-width: 550px;
+          max-width: 550px;
+          text-align: right;
+      }  
+    block script
+      script.
+        var foo = function bar(){
+            
+        }  
+  body
+    block title
+    include ./includes/header.jade
+    block content
+    include ./includes/footer.jade

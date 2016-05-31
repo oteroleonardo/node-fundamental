@@ -1,0 +1,24 @@
+//rebel.js
+extends ./layout.jade
+block title
+  if (title)
+    h1!= "-- " + title + " --"
+  else
+    h1 2 lost droids in a desert planet... 
+block content
+  #container.col
+    pre
+      |                                            /~\                        
+      |                                           (oo |     Well I'm not   
+      |                                           _\=/_   /  going that   
+      |                           ___            /  _  \        way!              
+      |          Fiiiiuu pupu    /() \          //|/.\|\\                     
+      |            rupiiiu   \ _|_____|_       ||  \_/  ||                    
+      |            dupipu!    | | === | |      || |\ /| ||                    
+      |                       |_|  O  |_|      #  \_ _/  #                    
+      |                        ||  O  ||          | | |                       
+      |                        ||__*__||          | | |                       
+      |                       |~ \___/ ~|         []|[]                       
+      |                       /=\ /=\ /=\         | | |                       
+      |     \_________________[_]_[_]_[_]________/_]_[_\______________________
+include ./includes/footer.jade
