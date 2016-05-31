@@ -11,7 +11,7 @@
 5. Refactor wings/model/customer.js module as needed to be used in your Express.js app
 6. Using Mongoose CRUD capabilities call find and insert as needed to support listing and insertion.
 6. Install required npm modules (using npm -save param)
-7. Push your changes to your github fork
+7. Push your code to your github fork
 
 ##For summa cum laude graduation:
 
