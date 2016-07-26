@@ -1,11 +1,11 @@
 {
-  "name": "lesson_13",
+  "name": "lesson_9",
   "version": "1.0.0",
   "description": "",
   "main": "async_parallel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Leonardo Otero<lotero@belatrixsf.com>",
   "license": "ISC"
 }
