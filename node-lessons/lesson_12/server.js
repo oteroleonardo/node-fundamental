@@ -7,8 +7,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.get(['/'], function (req, res) {
- res.render('index', { title: 'Index View' });
- //res.send("<h2>Decide you must, how to serve them best - [/empire, /mercenaries, /rebel] </h2>");
+  res.render('index', { title: 'Index View' });
+  //res.send("<h2>Decide you must, how to serve them best - [/empire, /mercenaries, /rebel] </h2>");
 })
 
 app.get(['/empire', '/mercenaries'], function (req, res) {
