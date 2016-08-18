@@ -1,0 +1,27 @@
+extends layout
+block content
+  h1 Welcome to #{title}
+  ul#messages
+  form#chat-form(action='')
+    #user-container
+      label user
+      input#user(autocomplete='off')
+    input#m(autocomplete='off')
+    button(type='submit') Send
+block page-script
+  script.
+    var socket = io();
+
+    $('#chat-form').submit(function(){
+      socket.emit('message', { user:$('#user').val()||'gest',  message:$('#m').val()} );
+      $('#m').val('');
+      return false;
+    });
+
+    socket.on('chat message return', function(msg){
+      $('#messages').append($('<li>').text(msg.user + ': ' + msg.message));
+    });
+
+
+
+
