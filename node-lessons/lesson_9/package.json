@@ -8,4 +8,7 @@
   },
   "author": "Leonardo Otero<lotero@belatrixsf.com>",
   "license": "ISC"
+  "dependencies": {
+    "async": "^2.0.0-rc.6"
+  }
 }

@@ -8,6 +8,7 @@ async.waterfall([
         console.log('1st function call starts.');
         setTimeout(function(){
             console.log('1st function call resolved.');
+            throw new Error('My little error');
             callback(null, WINK, SMILEY); // err, result, ... cascade params
         }, 5000);
     },
@@ -29,6 +30,7 @@ async.waterfall([
 ],
 function(err, result1, result2, result3){
     // err propagates all errors within the waterfall functions
+    console.log(err);
     console.log('Important: waterfall can handle multiple results.');
     console.dir(result1);
     console.dir(result2);
