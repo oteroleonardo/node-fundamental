@@ -7,7 +7,7 @@ Recommended tools for this course:
 
 * [Node.js](https://nodejs.org/en/download/)
 * [GIT client](https://git-scm.com/downloads)
-* [Visual Studio Code (based in ATOM)](http:code.visualstudio.com) 
+* [Visual Studio Code (based on ATOM)](http:code.visualstudio.com) 
 
 Please also take a look into lodash library documentation:
 
